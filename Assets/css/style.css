@@ -172,6 +172,12 @@ section p {
 
 }
 
+footer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
 figure:hover {
     filter: blur(0px);
     }
