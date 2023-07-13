@@ -12,7 +12,7 @@ https://jacobcampa.github.io/Portfolio/
 
 This webpage is fairly straight forward. Hover over the project images to reveal them (in the future will link to the actual projects) and you can use the nav bar to jump on the page to the corisponding section. Currently i have nothing to show so everything has place holders at the moment.
 
-![screenshot of the webpage](./Assets/images/Screenshot%20(1).png)
+![screenshot of the webpage](./Assets/images/Screenshot%20(2).png)
 
 ## Credits
 
