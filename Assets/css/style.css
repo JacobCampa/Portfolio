@@ -78,6 +78,29 @@ article {
     margin: 5px 25px 5px 25px;
 }
 
+.bigbox {
+    height: 600px;
+    background-image: url(../images/depositphotos_11831225-stock-photo-deep-space-abstract-natural-backgrounds.jpg);
+}
+
+#bigpic {
+    height: 500px;
+}
+
+#bigpopup {
+    visibility: hidden;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 250px;
+
+    
+}
+
 .boxes {
     width: 100%;
     align-content: space-evenly;
@@ -107,7 +130,7 @@ figure {
     margin: 1%;
     align-content: space-around;
     justify-content: space-evenly;
-    filter: blur(4px);
+    filter: blur(2px);
 }
 
 #cards p {
@@ -154,6 +177,10 @@ figure:hover {
     }
 
     .popup {
+        visibility: visible;
+    }
+
+    #bigpopup {
         visibility: visible;
     }
 
