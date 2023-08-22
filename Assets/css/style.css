@@ -88,7 +88,6 @@ article {
 }
 
 #bigpopup {
-    visibility: hidden;
     position: absolute;
     align-content: center;
     justify-content: center;
@@ -97,8 +96,13 @@ article {
     background-color: white;
     border: 2px solid black;
     margin-top: 250px;
+    color: black;
 
     
+}
+
+#p1 {
+    color: black;
 }
 
 .boxes {
@@ -160,7 +164,6 @@ section p {
 }
 
 .popup {
-    visibility: hidden;
     position: absolute;
     align-content: center;
     justify-content: center;
@@ -172,6 +175,10 @@ section p {
 
 }
 
+.bigpopup {
+    color: black;
+}
+
 footer {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -180,14 +187,6 @@ footer {
 
 figure:hover {
     filter: blur(0px);
-    }
-
-    .popup {
-        visibility: visible;
-    }
-
-    #bigpopup {
-        visibility: visible;
     }
 
 a:-webkit-any-link {
